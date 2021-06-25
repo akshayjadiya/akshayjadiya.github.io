@@ -8,7 +8,7 @@ I have done a bunch of Segmentation & Targeting projects at my work and I aim to
 
 This article will —
 1.Cover the “What” , “Why” and “How” of the S&T process
-1.Give you a walkthrough of a Segmentation project using a Kaggle dataset
+2.Give you a walkthrough of a Segmentation project using a Kaggle dataset
 
 So, let’s dive right in!
 ![_config.yml]({{ site.baseurl }}/images/config.png)
