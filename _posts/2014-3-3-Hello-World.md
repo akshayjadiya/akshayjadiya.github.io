@@ -11,7 +11,6 @@ This article will —
 2.Give you a walkthrough of a Segmentation project using a Kaggle dataset
 
 So, let’s dive right in!
-![_config.yml]({{ site.baseurl }}/images/config.png)
 
 ## What is Segmentation and Targeting?
 
@@ -45,4 +44,3 @@ If I have to summarize the overall process in 3 broad steps, they would be —
 3. Define segments based on market understanding
 
 If you've made this far and see the theory above in action through an example, please visit my post on [Medium](https://akshay-jadiya.medium.com/customer-segmentation-and-targeting-614a551fd199).
-
