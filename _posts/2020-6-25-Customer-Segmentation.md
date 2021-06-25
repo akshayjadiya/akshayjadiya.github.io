@@ -7,8 +7,9 @@ published: true
 I have done a bunch of Segmentation & Targeting projects at my work and I aim to share my learnings through this blog post. 
 
 This article will —
-1.Cover the “What” , “Why” and “How” of the S&T process
-2.Give you a walkthrough of a Segmentation project using a Kaggle dataset
+1. Cover the “What” , “Why” and “How” of the S&T process
+2. Give you a walkthrough of a Segmentation project using a Kaggle dataset
+
 
 So, let’s dive right in!
 
@@ -43,4 +44,4 @@ If I have to summarize the overall process in 3 broad steps, they would be —
 2. Rank customers on each of the identified dimensions
 3. Define segments based on market understanding
 
-If you've made this far and see the theory above in action through an example, please visit my post on [Medium](https://akshay-jadiya.medium.com/customer-segmentation-and-targeting-614a551fd199).
+If you've made this far and want to see the theory described above in action through an example, please visit my post on [Medium](https://akshay-jadiya.medium.com/customer-segmentation-and-targeting-614a551fd199).
