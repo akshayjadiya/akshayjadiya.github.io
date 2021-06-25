@@ -28,9 +28,10 @@ The focus of this post will be on the Behavioral Segmentation.
 ## Why Segmentation and Targeting is done?
 
 There are three main reasons to leverage data and analytically derive segments —
-1.It leads to **effective deployment of marketing tactics**
-2.It **divides the customer universe into logical groups** that are easy-to-understand
-3.It allows you to make **efficient use of the marketing budget** allocated to a specific channel
+1. It leads to **effective deployment of marketing tactics**
+2. It **divides the customer universe into logical groups** that are easy-to-understand
+3. It allows you to make **efficient use of the marketing budget** allocated to a specific channel
+
 
 ## The “How” of Segmentation
 
