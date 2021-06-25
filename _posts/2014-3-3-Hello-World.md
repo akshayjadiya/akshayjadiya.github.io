@@ -34,13 +34,15 @@ There are three main reasons to leverage data and analytically derive segments �
 
 ## The “How” of Segmentation
 
-The best way to understand one of the ways to create segments is to show an example. You can find the code/dynamic excel file here(https://github.com/akshayjadiya/HCPSegmentation) and get the data here(https://www.kaggle.com/roamresearch/prescriptionbasedprediction).
+The best way to understand one of the ways to create segments is to show an example. You can find the code/dynamic excel file [here](https://github.com/akshayjadiya/HCPSegmentation) and get the data [here](https://www.kaggle.com/roamresearch/prescriptionbasedprediction)
 
 > The data that I am using has the drug level prescriptions written by a doctor over a period of time. The dataset also captures some of the other physician characteristics such as specialty, years of experience etc. The goal is the divide the doctors into 4 different segments so that the sales representatives can visit them with varying frequencies — highest frequency to physicians in a group that is the most valuable and low/no visits to doctors in segments that are of low value.
 
 If I have to summarize the overall process in 3 broad steps, they would be —
--Identify customer characteristics that influence purchasing behavior
--Rank customers on each of the identified dimensions
--Define segments based on market understanding
+1. Identify customer characteristics that influence purchasing behavior
+2. Rank customers on each of the identified dimensions
+3. Define segments based on market understanding
+
+
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
