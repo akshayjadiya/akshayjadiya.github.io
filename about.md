@@ -15,7 +15,7 @@ I **aspire to work as a data scientist, helping businesses make data driven deci
 
 - I play badminton (recreationally)
 - Road trips and hiking have always been at the top of my travel plans
-- I like to read books of genres ranging from sci-fi, mystery and humor to biology, psychology and productivity. 
+- I like to read books of genres ranging from sci-fi, mystery and humor to biology, psychology and productivity 
 
 ### Contact me
 
