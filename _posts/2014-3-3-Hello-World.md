@@ -44,6 +44,5 @@ If I have to summarize the overall process in 3 broad steps, they would be —
 2. Rank customers on each of the identified dimensions
 3. Define segments based on market understanding
 
+If you've made this far and see the theory above in action through an example, please visit my post on [Medium](https://akshay-jadiya.medium.com/customer-segmentation-and-targeting-614a551fd199).
 
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
