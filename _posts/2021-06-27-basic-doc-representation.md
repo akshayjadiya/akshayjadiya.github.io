@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # Difference between bag of words and TFIDF model - An Example
 
@@ -16,5 +16,3 @@ I applied the below 3 steps to the dataset to compare the performance of bag-of-
 3.Find top 10 neighbors of 'Joe Biden'
 
 ## Results with the bag-of-words model
-
-
