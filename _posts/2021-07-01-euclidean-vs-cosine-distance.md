@@ -35,3 +35,11 @@ First 3 steps can be done as shown below -
 The top 10 results that we get are - 
 
 ![euc_results.JPG]({{site.baseurl}}/_posts/euc_results.JPG)
+
+Do you notice something interesting about the results? There can be many things you can come up with, but, one of them is that Joe Biden - who was VP during Obama's both the terms - is not in the list. Why that might be? We will explore this question further later in the article but for now let's look at the word length of the articles of these neighbors.
+
+![euc_word_length.JPG]({{site.baseurl}}/_posts/euc_word_length.JPG)
+
+_The average word length of Obama's neighbors' articles is ~230 words._
+
+Now, let's compare the results when we use Cosine distance as a metric while building the KNN model. Unfortunately, cosine distance is not directly present as one of the options in sklearn's implementation of KNN. However, normalizing the input features before passing them into the KNN algorithm has the same effect as using cosine distance. Read [this](https://newbedev.com/using-cosine-distance-with-scikit-learn-kneighborsclassifier) awesome post for more clarity.
