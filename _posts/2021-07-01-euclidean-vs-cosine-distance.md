@@ -20,10 +20,7 @@ The below picture shows first few rows of the dataset.
 
 First, let's use the Euclidean distance measure and look at the neighbors. What we can do simply is - 
 1. Create a bag-of-words representation of the `text` column of the dataset using sklearn's `CountVectorizer`
-2. Calculate the IDF of the document using the below formula 
-
-![tfidf_formula.JPG]({{site.baseurl}}/images/euc_vs_cos/tfidf_formula.JPG)
-
+2. Calculate the IDF of the document using the tfidf [formula](https://apple.github.io/turicreate/docs/api/generated/turicreate.text_analytics.tf_idf.html) 
 3. Multiply the bag-of-words frequencies (**T**erm**F**requency) with the **IDF** values calculated above
 4. Build a KNN model with metric parameter as 'euclidean'
 5. Use the model to get top 10 neighbors of Barack Obama
