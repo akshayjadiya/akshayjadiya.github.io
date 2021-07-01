@@ -3,7 +3,7 @@ published: true
 ---
 How using Euclidean distance vs. Cosine similarity affects KNN results.
 
-If you don't know or forgot how KNN works, please read [this](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761) great article before moving ahead. Also, if are a bit rusty on the concept of calculating distance between two data points, read this simple article here.
+If you don't know or forgot how KNN works, please read [this](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761) great article before moving ahead. Also, if are a bit rusty on the concept of calculating distance between two data points, read this simple article [here](https://cmry.github.io/notes/euclidean-v-cosine).
 
 Okay! Hope you're now comfortable with the basic concepts. 
 
@@ -52,7 +52,8 @@ Now, we have Joe Biden as the closest neighbor of Barack Obama. And if we see th
 
 ![cos_word_length.JPG]({{site.baseurl}}/_posts/cos_word_length.JPG)
 
-Explanation
+### Explanation
 
-We don't see Joe Biden in Barack Obama's top 10 neighbors while using Euclidean distance as the metric because it favors short articles over long articles. Remember that the overall value of euclidean distance depends upon the number of squared terms being added in the square root. Longer the vector, more the distance. On the other hand, Cosine distance removes this bias and let us compare documents of varying lengths.      
+We don't see Joe Biden in Barack Obama's top 10 neighbors while using Euclidean distance as the metric **because it favors short articles over long articles**. Remember that the overall value of euclidean distance depends upon the number of squared terms being added in the square root. Longer the vector, more the distance. On the other hand, **Cosine distance removes this bias** and let us compare documents of varying lengths.
 
+_I did not use `TfidfVectorizer` to calculate the tfidf representation while calculating the results for Euclidean distance because by default, it normalizes the tfidf vector which we don't want. Therefore, I first created a bag-of-words model first and then created my own tdidf representation._
