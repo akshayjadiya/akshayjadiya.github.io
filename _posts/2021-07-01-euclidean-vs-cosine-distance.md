@@ -11,5 +11,10 @@ The aim of this article is to -
 1. Compare 10 nearest neighbors of a query document when using Euclidean distance vs. Cosine similarity measure to calculate the distance between the two documents
 2. Explore why there is a difference in the results
 
-I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my post on document representation. The dataset that I have used can be found here.
+I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my post on document representation. The dataset that I have used can be found here and the analysis Jupyter notebook here.
 
+First, let's use the Euclidean distance measure and look at the neighbors. What we can do simply is - 
+1. Create a bag-of-words representation of the `text` column of the dataset using sklearn's `CountVectorizer`
+2. Calculate the IDF of the document using the below formula 
+
+![tfidf_formula.JPG]({{site.baseurl}}/_posts/tfidf_formula.JPG)
