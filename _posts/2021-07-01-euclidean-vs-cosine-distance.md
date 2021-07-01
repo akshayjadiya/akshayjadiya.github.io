@@ -28,6 +28,8 @@ First, let's use the Euclidean distance measure and look at the neighbors. What 
 4. Build a KNN model with metric parameter as 'euclidean'
 5. Use the model to get top 10 neighbors of Barack Obama
 
+
+
 First 3 steps can be done as shown below - 
 
 ![make_tf_idf.JPG]({{site.baseurl}}/images/euc_vs_cos/make_tf_idf.JPG)
