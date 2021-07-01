@@ -11,18 +11,18 @@ Okay! Hope you're now comfortable with the basic concepts.
 > 1. Compare 10 nearest neighbors of a query document when using Euclidean distance vs. Cosine similarity measure to calculate the distance between the two documents
 > 2. Explore why there is a difference in the results
 
-I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my post on document representation. The dataset that I have used can be found here and the analysis Jupyter notebook here.
+I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my [post](https://akshayjadiya.github.io/basic-document-representation/) on document representation. The dataset that I have used can be found [here](https://www.kaggle.com/sameersmahajan/people-wikipedia-data) and the analysis Jupyter notebook here.
 
 The below picture shows first few rows of the dataset.
 
-![data_few_rows.JPG]({{site.baseurl}}/_posts/data_few_rows.JPG)
+![data_few_rows.JPG]({{site.baseurl}}/images/euc_vs_cos/data_few_rows.JPG)
 
 
 First, let's use the Euclidean distance measure and look at the neighbors. What we can do simply is - 
 1. Create a bag-of-words representation of the `text` column of the dataset using sklearn's `CountVectorizer`
 2. Calculate the IDF of the document using the below formula 
 
-![tfidf_formula.JPG]({{site.baseurl}}/_posts/tfidf_formula.JPG)
+![tfidf_formula.JPG]({{site.baseurl}}/images/euc_vs_cos/tfidf_formula.JPG)
 
 3. Multiply the bag-of-words frequencies (**T**erm**F**requency) with the **IDF** values calculated above
 4. Build a KNN model with metric parameter as 'euclidean'
@@ -30,15 +30,15 @@ First, let's use the Euclidean distance measure and look at the neighbors. What 
 
 First 3 steps can be done as shown below - 
 
-![make_tf_idf.JPG]({{site.baseurl}}/_posts/make_tf_idf.JPG)
+![make_tf_idf.JPG]({{site.baseurl}}/images/euc_vs_cos/make_tf_idf.JPG)
 
 The top 10 results that we get are - 
 
-![euc_results.JPG]({{site.baseurl}}/_posts/euc_results.JPG)
+![euc_results.JPG]({{site.baseurl}}/images/euc_vs_cos/euc_results.JPG)
 
 Do you notice something interesting about the results? There can be many things you can come up with, but, one of them is that Joe Biden - who was VP during Obama's both the terms - is not in the list. Why that might be? We will explore this question further later in the article but for now let's look at the word length of the articles of these neighbors.
 
-![euc_word_length.JPG]({{site.baseurl}}/_posts/euc_word_length.JPG)
+![euc_word_length.JPG]({{site.baseurl}}/images/euc_vs_cos/euc_word_length.JPG)
 
 _The average word length of Obama's neighbors' articles is ~230 words._
 
@@ -46,11 +46,11 @@ Now, let's compare the results when we use Cosine distance as a metric while bui
 
 Let's look at top 10 neighbors when using cosine distance - 
 
-![cos_results.JPG]({{site.baseurl}}/_posts/cos_results.JPG)
+![cos_results.JPG]({{site.baseurl}}/images/euc_vs_cos/cos_results.JPG)
 
 Now, we have Joe Biden as the closest neighbor of Barack Obama. And if we see the word lengths of the neighbors' articles now, we see that the _average length is ~306 words_ (for Euclidean it was ~230 words). Also, Joe Biden's article is 414 words long.
 
-![cos_word_length.JPG]({{site.baseurl}}/_posts/cos_word_length.JPG)
+![cos_word_length.JPG]({{site.baseurl}}/images/euc_vs_cos/cos_word_length.JPG)
 
 ### Explanation
 
