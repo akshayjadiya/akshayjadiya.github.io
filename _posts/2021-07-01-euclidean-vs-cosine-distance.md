@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 How using Euclidean distance vs. Cosine similarity affects KNN results.
 
