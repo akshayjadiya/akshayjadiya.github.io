@@ -43,3 +43,14 @@ Do you notice something interesting about the results? There can be many things 
 _The average word length of Obama's neighbors' articles is ~230 words._
 
 Now, let's compare the results when we use Cosine distance as a metric while building the KNN model. Unfortunately, cosine distance is not directly present as one of the options in sklearn's implementation of KNN. However, normalizing the input features before passing them into the KNN algorithm has the same effect as using cosine distance. Read [this](https://newbedev.com/using-cosine-distance-with-scikit-learn-kneighborsclassifier) awesome post for more clarity.
+
+Let's look at top 10 neighbors when using cosine distance - 
+
+![cos_results.JPG]({{site.baseurl}}/_posts/cos_results.JPG)
+
+Now, we have Joe Biden as the closest neighbor of Barack Obama. And if we see the word lengths of the neighbors' articles now, we see that the average length is ~306 words (for Euclidean it was ~230 words). Also, Joe Biden's article is 414 words long.
+
+![cos_word_length.JPG]({{site.baseurl}}/_posts/cos_word_length.JPG)
+
+
+
