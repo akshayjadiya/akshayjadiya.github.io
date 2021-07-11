@@ -11,7 +11,7 @@ Okay! Hope you're now comfortable with the basic concepts.
 > 1. Compare 10 nearest neighbors of a query document when using Euclidean distance vs. Cosine similarity measure to calculate the distance between the two documents
 > 2. Explore why there is a difference in the results
 
-I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my [post](https://akshayjadiya.github.io/basic-document-representation/) on document representation. The dataset that I have used can be found [here](https://www.kaggle.com/sameersmahajan/people-wikipedia-data) and the analysis Jupyter notebook here.
+I will use a dataset of wikipedia documents about famous people to build the KNN model and then look at 10 nearest neighbor of Barack Obama. If you want to understand how to process the data to so that it can be fed into the KNN model, read my [post](https://akshayjadiya.github.io/basic-document-representation/) on document representation. The dataset that I have used can be found [here](https://www.kaggle.com/sameersmahajan/people-wikipedia-data) and the analysis Jupyter notebook [here](https://github.com/akshayjadiya/blog_articles/tree/main/cosine_vs_euclidean).
 
 The below picture shows first few rows of the dataset.
 
