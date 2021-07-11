@@ -11,8 +11,14 @@ Let's take an example - Suppose we have an article for one of the Hollywood acto
 
 The below figure illustrates the idea - 
 
-As we can see, for the red query point, nearest neighbors are most likely to be found in Bin 2. Now, let's focus on a very big question - how do we come up with these separating lines? 
+![lsh_exp_1.JPG]({{site.baseurl}}/images/lsh_1/lsh_exp_1.JPG)
 
-Remember that if two points are closer, the angle between the lines joining the points and the origin will be smaller as illustrated in the figure below - 
 
-As you can see, if both the bin separating lines are in region `a1` or in region `a3` then the points will fall in the same bin and we do not have a problem. However, if one of the lines falls in region `a3` then both of the points will fall in different bins and a query point falling in one of the regions will miss the other point. The closer the points lesser the probability the a randomly selected line will fall in between them. So, it does not seem to be a bad idea if we initialize the lines randomly. Finally, in order to solve the problem of nearby points falling in different bins, we can consider "nearby bins" as well while searching for nearest neighbors.  
+As we can see, **for the red query point, nearest neighbors are most likely to be found in Bin 2**. Now, let's focus on a very big question - **how do we come up with these separating lines? **
+
+Remember that **if two points are closer, the angle between the lines joining the points and the origin will be smaller** as illustrated in the figure below - 
+
+![lsh_random_1.JPG]({{site.baseurl}}/images/lsh_1/lsh_random_1.JPG)
+
+
+As you can see, **if both the bin separating lines are in region `a1` or in region `a3` then the points will fall in the same bin** and we do not have a problem. However, **if one of the lines falls in region `a3` then both of the points will fall in different bins** and a query point falling in one of the regions will miss the other point. The closer the points lesser the probability the a randomly selected line will fall in between them. So, **it does not seem to be a bad idea if we initialize the lines randomly**. Finally, in order to solve the problem of nearby points falling in different bins, **we can consider "nearby bins" as well while searching for nearest neighbors**.  
