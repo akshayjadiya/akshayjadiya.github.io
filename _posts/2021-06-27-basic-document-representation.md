@@ -6,7 +6,7 @@ Difference between bag of words and TFIDF model - An Example
 > We all know that using TF-IDF values instead of bag of words is a better way of representing documents. 
 Using TF-IDF basically reduces the weight of very common words that don't really help us differentiate documents. Common words like 'and' , 'the' , 'very' , 'an' etc. are present in all the documents irrespective of the theme of the document.
 
-Let's look at an example and see the difference.
+Let's look at an example and see the difference. The Jupyter notebook can be found [here](https://github.com/akshayjadiya/blog_articles/tree/main/compare_tfidf_tf).
 
 I used the People Wiki dataset for the analysis which can be found [here](https://www.kaggle.com/sameersmahajan/people-wikipedia-data).
 
