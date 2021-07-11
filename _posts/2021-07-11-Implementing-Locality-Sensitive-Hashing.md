@@ -14,7 +14,7 @@ The below figure illustrates the idea -
 ![lsh_exp_1.JPG]({{site.baseurl}}/images/lsh_1/lsh_exp_1.JPG)
 
 
-As we can see, **for the red query point, nearest neighbors are most likely to be found in Bin 2**. Now, let's focus on a very big question - **how do we come up with these separating lines? **
+As we can see, **for the red query point, nearest neighbors are most likely to be found in Bin 2**. Now, let's focus on a very big question -  **how do we come up with these separating lines? **
 
 Remember that **if two points are closer, the angle between the lines joining the points and the origin will be smaller** as illustrated in the figure below - 
 
