@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Predict whether an individual earns less than $50k or more using US Census data
 
@@ -27,7 +27,4 @@ Aim - Familiarize yourself with the dataset i.e. variables available (their type
 Process - Use pandas `describe()`, `isna()` methods, make histograms to check the distribution of numerical variables, `value_counts()` method to check distribution of categorical variables
 
 ## Step 2 - Data Preprocessing
-Aim - 
-
-
-
+Aim -
