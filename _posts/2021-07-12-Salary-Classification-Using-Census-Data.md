@@ -5,7 +5,7 @@ Predict whether an individual earns less than $50k or more using US Census data
 
 > Problem Statement - An organization wants to identify people in an available census dataset who earn more than $50k, so that it can target them via emails to solicit funds for a charity.
 
-Note - This project was done as a part of Udacity ML Nanodegree Program. 
+_Note - This project was done as a part of Udacity ML Nanodegree Program._ 
 
 Exact details of the dataset and the analysis code can be found in [this](https://github.com/akshayjadiya/Udacity/blob/master/finding_donors.ipynb) Jupyter Notebook. The aim of this article is to provide a high level overview of the steps taken and the reasons behind them. This article complements the information present in the notebook, so you can quickly read the article for main ideas and thoroughly go through the notebook for in-depth treatment of topic.  
 
@@ -59,8 +59,4 @@ For example - business people would like simple definitions for people earning <
 
 Therefore, we **need to see which of the features in our feature set are most important for the classification** so that we can take only those and drop others. The accuracy or any other evaluation metric most probably will take a hit but often we can find a balance. 
 
-In sklearn's implementation of models like Random Forest, AdaBoost etc. we can directly find feature importances by calling the `feature_importance_` attribute of the trained model.  
-
-
-
-
+In sklearn's implementation of models like Random Forest, AdaBoost etc. we can directly find feature importances by calling the `feature_importance_` attribute of the trained model.
