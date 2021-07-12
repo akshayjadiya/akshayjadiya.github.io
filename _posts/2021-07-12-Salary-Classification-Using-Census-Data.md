@@ -49,6 +49,18 @@ Aim - Define an evaluation metric and compare the models selected during step 3 
 Read [this](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c) article to get clarity on precision and recall metrics.
 
 ## Step 5 - Hyperparameter Optimization
-Aim - After 
+Aim - After decided the best performing algorithm, it's time to tune hyperparameters of the associated model to get the optimal model. 
+
+Process - Use sklearn's `GridSearchCV` to define values for each hyperparameter and search for the best model over all value combinations. `RandomizedSearchCV` can also be used to reduce computations.
+
+## Setp 6 & 7 - Feature Importance and Feature Selection
+Aim - Many times we have our model trained on hundreds of features. It becomes hard to explain the outputs of the model and make simple rules to broadly define characteristics of each of the segment in our model.
+For example - business people would like simple definitions for people earning < $50k like unmarried people <35 years of age , natives of south east asian countries who have a college degree having occupations like craft repairs , handlers-cleaners etc. 
+
+Therefore, we need to see which of the features in our feature set are most important for the classification so that we can take only those and drop others. The accuracy or any other evaluation metric most probably will take a hit but often we can find a balance. 
+
+In sklearn's implementation of models like Random Forest, AdaBoost etc. we can directly find feature importances by calling the `feature_importance_` attribute of the trained model.  
+
+
 
 
