@@ -44,6 +44,12 @@ There is a difference in number of reviews present for different product categor
 3. Avg. sentiment per category
 ![avg_sentiment.JPG]({{site.baseurl}}/images/stat_bias/avg_sentiment.JPG)
 
+The above chart is a more granular version of the first chart and shows that we have way more positive reviews for Jeans than Blouses
+
+**The intent behind of looking at all these charts is that we can expect the non-uniform distribution of review sentiments to affect the performance of our ML model for negative reviews as well as for categories that have very few data points.**
+
+In the next post, I will explain the ways to deal with statistical bias.
+
 
 
 
