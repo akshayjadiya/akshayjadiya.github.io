@@ -42,7 +42,7 @@ Observe that we face similar challenge as highlighted in the two examples above 
 There is a difference in number of reviews present for different product categories as well (which is expected as there will be much more reviews for a common item such as blouses or jeans than a swimwear)
 
 3. Avg. sentiment per category
-![avg_sentiment.JPG]({{site.baseurl}}/_posts/avg_sentiment.JPG)
+![avg_sentiment.JPG]({{site.baseurl}}/images/stat_bias/avg_sentiment.JPG)
 
 
 
