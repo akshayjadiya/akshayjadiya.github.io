@@ -32,7 +32,20 @@ Now let's look at an example dataset suffering from statistical bias...
 We look at the following data cuts in order to detect statistical bias - 
 
 1. Distribution of # of records for positive, neutral and negative reviews
-![dist_reviews.JPG]({{site.baseurl}}/_posts/dist_reviews.JPG)
+![dist_reviews.JPG]({{site.baseurl}}/images/stat_bias/dist_reviews.JPG)
+
+Observe that we face similar challenge as highlighted in the two examples above - majority of data points belong to a particular class (here positive sentiment) and very few negative reviews.
+
+2. Count of records by product category
+![count_cat.JPG]({{site.baseurl}}/images/stat_bias/count_cat.JPG)
+
+There is a difference in number of reviews present for different product categories as well (which is expected as there will be much more reviews for a common item such as blouses or jeans than a swimwear)
+
+3. Avg. sentiment per category
+![avg_sentiment.JPG]({{site.baseurl}}/_posts/avg_sentiment.JPG)
+
+
+
 
 
 
