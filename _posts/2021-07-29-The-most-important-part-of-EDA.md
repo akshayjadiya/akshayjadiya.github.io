@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Detecting and Measuring Statistical Bias during EDA - Part 1
 
@@ -49,11 +49,3 @@ The above chart is a more granular version of the first chart and shows that we 
 **The intent behind of looking at all these charts is that we can expect the non-uniform distribution of review sentiments to affect the performance of our ML model for negative reviews as well as for categories that have very few data points.**
 
 In the next post, I will explain the ways to deal with statistical bias.
-
-
-
-
-
-
-
-
