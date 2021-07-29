@@ -3,7 +3,7 @@ published: true
 ---
 Detecting and Measuring Statistical Bias during EDA - Part 1
 
-Just like an interviewer asks the typical "Tell me about yourself" as the first question during an interview, data scientists perform Exploratory Data Analysis (EDA) to get to "know" the data at hand. Benefits of a thorough EDA cannot be overlooked. **Findings during EDA inform further decisions about the type of model(s) to look at and it also helps in setting expectations about the outcome early on. **
+Just like an interviewer asks the typical "Tell me about yourself" as the first question during an interview, data scientists perform Exploratory Data Analysis (EDA) to get to "know" the data at hand. Benefits of a thorough EDA cannot be overlooked. **Findings during EDA inform further decisions about the type of model(s) to look at and it also helps in setting expectations about the outcome early on.**
 
 Some of the common tasks that are done during EDA are - 
 1. Looking at the size of the data and making a note of discrete, continuous and categorical columns
