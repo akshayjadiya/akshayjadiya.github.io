@@ -19,4 +19,8 @@ The motivation behind our appraoch can be summarized as -
 
 ![hyper_tuning_1.png]({{site.baseurl}}/_posts/hyper_tuning_1.png)
 
+We followed a 4 step methodology to achieve the results - 
+
+![hyper_tuning_2.png]({{site.baseurl}}/_posts/hyper_tuning_2.png)
+
 
