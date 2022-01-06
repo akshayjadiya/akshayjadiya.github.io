@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Design of Experiment based approach for Hyperparameter Tuning
 
