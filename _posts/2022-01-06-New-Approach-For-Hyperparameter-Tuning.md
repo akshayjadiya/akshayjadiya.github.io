@@ -17,10 +17,8 @@ Getting straight to the point, our project proposed a **new method to perform Hy
 
 The motivation behind our appraoch can be summarized as - 
 
-![hyper_tuning_1.png]({{site.baseurl}}/_posts/hyper_tuning_1.png)
+![hyper_tuning_1.png]({{site.baseurl}}/images/hyper_tuning/hyper_tuning_1.png)
 
 We followed a 4 step methodology to achieve the results - 
 
-![hyper_tuning_2.png]({{site.baseurl}}/_posts/hyper_tuning_2.png)
-
-
+![hyper_tuning_2.png]({{site.baseurl}}/images/hyper_tuning/hyper_tuning_2.png)
