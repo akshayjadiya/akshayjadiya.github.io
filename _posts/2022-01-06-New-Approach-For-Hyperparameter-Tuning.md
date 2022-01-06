@@ -26,3 +26,13 @@ We followed a 4 step methodology to achieve the results -
 After running the notebook in the repo, you'll get the following results - 
 
 ![hyper_tuning_3.png]({{site.baseurl}}/images/hyper_tuning/hyper_tuning_3.png)
+
+Finally, we can say that these are the 3 key benefits of this new approach - 
+
+1. **Time Reduction** – OA/MaxPro based hyperparameter tuning resulted in an improvement of 7.43 times as compared to Grid Search 
+
+
+2. **Insights gained** – Advantage over the Random Hyperparameter Search is the certainty of a good result and information gained about the effects of parameters on accuracy can help us make other modeling decisions in our project
+
+
+3. **Key Takeaway** - Given computer experiments in the world of Machine Learning can be very expensive (single run of a model can take up to days even). Being able to reduce the search space and then gain actionable insight from the reduced space is a valuable addition to the Hyperparameter Search methodologies currently in play
