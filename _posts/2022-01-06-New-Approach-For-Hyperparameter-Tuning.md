@@ -22,3 +22,7 @@ The motivation behind our appraoch can be summarized as -
 We followed a 4 step methodology to achieve the results - 
 
 ![hyper_tuning_2.png]({{site.baseurl}}/images/hyper_tuning/hyper_tuning_2.png)
+
+After running the notebook in the repo, you'll get the following results - 
+
+![hyper_tuning_3.png]({{site.baseurl}}/images/hyper_tuning/hyper_tuning_3.png)
