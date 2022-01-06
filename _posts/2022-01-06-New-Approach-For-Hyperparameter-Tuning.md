@@ -13,7 +13,7 @@ The fundamental thing I learned in that course was – How to **reduce the numbe
 
 Although there are many concepts that I learned during the class that is relevant to building ML models, in this post, I would like to expand upon the project that I did with one of my colleagues. 
 
-Getting straight to the point, our project proposed a **new method to perform Hyperparameter Tuning**. More details about the experiments that we performed can be found on this GitHub repo. There is a PDF file as well that explains each and every concept in great detail and that can also be found on the same repo. To summarise the methodology that we adopted look at the below pictures. 
+Getting straight to the point, our project proposed a **new method to perform Hyperparameter Tuning**. More details about the experiments that we performed can be found on [this](https://github.com/akshayjadiya/doe_based_hyperparameter_tuning) GitHub repo. There is a PDF file as well that explains each and every concept in great detail and that can also be found on the same repo. To summarise the methodology that we adopted look at the below pictures. 
 
 The motivation behind our appraoch can be summarized as - 
 
