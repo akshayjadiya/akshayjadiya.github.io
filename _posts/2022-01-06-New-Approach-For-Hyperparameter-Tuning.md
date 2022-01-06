@@ -15,4 +15,8 @@ Although there are many concepts that I learned during the class that is relevan
 
 Getting straight to the point, our project proposed a **new method to perform Hyperparameter Tuning**. More details about the experiments that we performed can be found on this GitHub repo. There is a PDF file as well that explains each and every concept in great detail and that can also be found on the same repo. To summarise the methodology that we adopted look at the below pictures. 
 
+The motivation behind our appraoch can be summarized as - 
+
+![hyper_tuning_1.png]({{site.baseurl}}/_posts/hyper_tuning_1.png)
+
 
